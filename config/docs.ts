@@ -4,10 +4,6 @@ export const docsConfig = {
       title: "Home",
       href: "/",
     },
-    {
-      title: "Blog",
-      href: "https://blog.abhishekg.com.np",
-    },
   ],
   sidebarNav: [
     {
@@ -43,6 +39,11 @@ export const docsConfig = {
           href: "/education",
           items: [],
         },
+        {
+          title: "Rewards & Recognition",
+          href: "/rewards",
+          items: [],
+        },
         // {
         //   title: "Testimonials",
         //   href: "/testimonials",
@@ -53,11 +54,7 @@ export const docsConfig = {
           href: "/contact",
           items: [],
         },
-        {
-          title: "Stats",
-          href: "/stats",
-          items: [],
-        },
+  // Stats removed
       ],
     },
   ],
