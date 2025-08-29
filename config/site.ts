@@ -1,19 +1,19 @@
 export const siteConfig = {
-  name: "abhishekg.com.np",
-  url: "https://abhishekg.com.np",
-  ogImage: "https://abhishekg.com.np/og.jpg",
-  description: "Portfolio of Abhishek Ghimire",
+  name: "preetkotmire.com",
+  url: "https://preetkotmire.com",
+  ogImage: "/logo.jpg",
+  description: "Portfolio of Preet Kotmire",
   links: {
     shadcn: "https://ui.shadcn.com/",
-    telegram: "https://t.me/cypherab01",
-    twitter: "https://x.com/cypherab01",
-    github: "https://github.com/cypherab01/abhishekg.com.np",
-    githubProfile: "https://github.com/cypherab01",
-    resume: "https://www.overleaf.com/read/pwbbqtpthxxr#946f81",
-    email: "mailto:aghimire074@gmail.com",
-    githubUsername: "cypherab01",
+    telegram: "https://t.me/preetkotmire",
+    twitter: "https://x.com/preetkotmire",
+  github: "https://github.com/PreetKot",
+  githubProfile: "https://github.com/PreetKot",
+    resume: "/PreetKotmireResume.pdf",
+    email: "mailto:preet.sk18@gmail.com",
+  githubUsername: "PreetKot",
   },
-  bitinfonepal: "https://bitinfonepal.com",
+  bitinfonepal: "",
 };
 
 export type SiteConfig = typeof siteConfig;

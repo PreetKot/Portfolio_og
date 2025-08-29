@@ -1,8 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { META_THEME_COLORS, siteConfig } from "@/config/site";
 
-import { GoogleAnalytics } from "@next/third-parties/google";
-import { Analytics } from "@vercel/analytics/next";
+// ...existing code...
 
 import { fontSans, fontMono } from "@/lib/fonts";
 import { Toaster } from "@/components/ui/sonner";
@@ -25,25 +24,23 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   keywords: [
-    "Abhishek Ghimire",
-    "Abhishek G",
-    "abhishekg.com.np",
-    "Abhishek Ghimire Portfolio",
-    "Abhishek Ghimire Projects",
-    "Abhishek Ghimire Skills",
-    "Abhishek Ghimire Experience",
-    "Abhishek Ghimire Education",
-    "Abhishek Ghimire Contact",
-    "Abhishek Ghimire Blog",
-    "Abhishek Ghimire Resume",
+    "Preet Kotmire",
+    "preetkotmire.com",
+    "Preet Kotmire Portfolio",
+    "Preet Kotmire Projects",
+    "Preet Kotmire Skills",
+    "Preet Kotmire Experience",
+    "Preet Kotmire Education",
+    "Preet Kotmire Contact",
+    "Preet Kotmire Resume",
   ],
   authors: [
     {
-      name: "Abhishek Ghimire",
-      url: "https://abhishekg.com.np",
+      name: "Preet Kotmire",
+      url: "https://preetkotmire.com",
     },
   ],
-  creator: "Abhishek Ghimire",
+  creator: "Preet Kotmire",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -68,11 +65,11 @@ export const metadata: Metadata = {
     creator: "@cypherab01",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
     apple: "/apple-touch-icon.png",
   },
-  manifest: `${siteConfig.url}/site.webmanifest`,
+  manifest: `/site.webmanifest`,
 };
 
 export const viewport: Viewport = {
@@ -152,10 +149,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             </div>
           </ThemeProvider>
           <Toaster richColors position="top-center" />
-          <GoogleAnalytics
-            gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || ""}
-          />
-          <Analytics />
+          {/* Analytics removed */}
           <SpeedInsights />
         </body>
       </html>

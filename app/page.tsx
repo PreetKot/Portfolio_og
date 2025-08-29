@@ -16,21 +16,17 @@ const IntroductionPage = async () => {
   return (
     <>
       <PageHeader>
-        <PageHeaderHeading>Abhishek Ghimire</PageHeaderHeading>
+        <PageHeaderHeading>Preet Kotmire</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          A coder by day, problem-solver by night!
+          Crafting code by day, cracking challenges by night.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a dedicated Software Engineer specializing in full-stack
-          application development. I enjoy crafting responsive web solutions
-          using modern technologies like Next.js, React, and Tailwind CSS.
-          Currently, I am expanding my skills into mobile development with React
-          Native and Expo, aiming to deliver comprehensive, user-centric
-          software solutions.
+          I am a full-stack Software Engineer passionate about building scalable, responsive, and user-centric web applications. Skilled in React, Next.js, Tailwind CSS, HTML, CSS, JavaScript, MongoDB, PostgreSQL, and experienced with MERN stack development, Express.js, Firebase Auth, and ORMs, I focus on delivering clean, efficient code and seamless digital experiences. I am also expanding my expertise in cloud technologies, API development, and data science, with hands-on experience in Python, Pandas, and data visualization tools like Power BI and Excel. Alongside technical skills, I bring strong problem-solving, teamwork, leadership, and communication abilities, enabling me to create impactful and holistic software solutions.
+
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="sm" className="rounded-md">
-            <Link href={siteConfig.links.resume} target="_blank">
+            <Link href="/PreetKotmireResume.pdf" target="_blank" rel="noopener noreferrer">
               Get Resume
               <ExternalLink className="size-3" strokeWidth={2} />
             </Link>

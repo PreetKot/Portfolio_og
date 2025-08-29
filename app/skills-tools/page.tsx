@@ -8,7 +8,7 @@ import {
 import Pager from "@/components/pager";
 import { Badge } from "@/components/ui/badge";
 import { code } from "@/config/codeContent";
-import { mySkills } from "@/constants";
+import { mySkills, mySkillsSections } from "@/constants";
 
 const SkillsToolsPage = () => {
   return (
@@ -19,29 +19,30 @@ const SkillsToolsPage = () => {
           Learned by coding all night and debugging all day!
         </PageHeaderHeading>
         <PageHeaderDescription>
-          As a full-stack Software Engineer, I specialize in building scalable
-          web applications using modern technologies such as Next.js, React, and
-          Tailwind CSS. I'm also expanding my expertise into mobile development
-          with React Native and Expo to create cross-platform solutions.
+        As a Full-Stack Software Engineer, I specialize in designing and developing scalable, high-performance web applications using modern technologies like Next.js, React, Tailwind CSS, Node.js, and PostgreSQL. With expertise across frontend and backend, I focus on creating responsive user interfaces, efficient APIs, and robust database-driven systems while leveraging tools like Git, Vercel, and Netlify for seamless deployment and CI/CD.
         </PageHeaderDescription>
       </PageHeader>
 
       {/* skills and tools badges */}
 
-      <div
-        id="badges"
-        className="flex flex-wrap items-center justify-center gap-2 my-4"
-      >
-        {mySkills.map((item) => (
-          <Badge
-            key={item.title}
-            className="p-4 py-2 border border-secondary bg-secondary-foreground text-secondary"
-          >
-            {Icons[item.icon as keyof typeof Icons]?.({
-              className: "mr-2 size-4",
-            })}
-            {item.title}
-          </Badge>
+      <div className="space-y-6 my-4">
+        {Object.entries(mySkillsSections).map(([section, items]) => (
+          <section key={section}>
+            <h3 className="text-lg font-semibold mb-2">{section}</h3>
+            <div className="flex flex-wrap items-center gap-2">
+              {items.map((item: any) => (
+                <Badge
+                  key={item.title}
+                  className="p-4 py-2 border border-secondary bg-secondary-foreground text-secondary"
+                >
+                  {Icons[item.icon as keyof typeof Icons]?.({
+                    className: "mr-2 size-4",
+                  })}
+                  {item.title}
+                </Badge>
+              ))}
+            </div>
+          </section>
         ))}
       </div>
 

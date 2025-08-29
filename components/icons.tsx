@@ -2,21 +2,13 @@ type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
   logo: (props: IconProps) => (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="lucide lucide-move-up-right-icon lucide-move-up-right"
-    >
-      <path d="M13 5H19V11" />
-      <path d="M19 5L5 19" />
-    </svg>
+    // Render the project's logo image instead of the old arrow SVG.
+    // Use any provided className (e.g. "h-6 w-6") so callers can size it.
+    <img
+      src="/logo.jpg"
+      alt="Preet Kotmire"
+      className={props.className ? props.className : "h-6 w-6 rounded-full"}
+    />
   ),
   twitter: (props: IconProps) => (
     <svg
@@ -271,5 +263,95 @@ export const Icons = {
         fill="#2496ED"
       />
     </svg>
+  ),
+  // additional icons for Preet
+  cpp: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}>
+      <text x="0" y="16" fontSize="12" fill="currentColor">C++</text>
+    </svg>
+  ),
+  c: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}>
+      <text x="0" y="16" fontSize="12" fill="currentColor">C</text>
+    </svg>
+  ),
+  python: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}>
+      <path fill="#3776AB" d="M4 4h16v16H4z" />
+    </svg>
+  ),
+  sql: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}>
+      <rect width="20" height="14" x="2" y="5" rx="2" fill="#003B57" />
+    </svg>
+  ),
+  bootstrap: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}>
+      <rect width="20" height="20" x="2" y="2" rx="4" fill="#7952B3" />
+    </svg>
+  ),
+  drizzle: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><circle cx="12" cy="12" r="10" fill="#7C3AED"/></svg>
+  ),
+  prisma: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><rect x="4" y="4" width="16" height="16" fill="#0EA5A4"/></svg>
+  ),
+  postgres: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><ellipse cx="12" cy="12" rx="8" ry="6" fill="#31648C"/></svg>
+  ),
+  neon: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><rect x="2" y="2" width="20" height="20" fill="#00FFD1"/></svg>
+  ),
+  api: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M4 12h16" stroke="currentColor" strokeWidth="2"/></svg>
+  ),
+  netlify: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><polygon points="12,2 22,8 18,22 6,22 2,8" fill="#00C7B7"/></svg>
+  ),
+  vscode: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><rect x="3" y="3" width="18" height="18" fill="#007ACC"/></svg>
+  ),
+  oop: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><circle cx="12" cy="12" r="8" fill="#F97316"/></svg>
+  ),
+  analytics: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><rect x="4" y="6" width="3" height="12" fill="#6366F1"/><rect x="10" y="4" width="3" height="14" fill="#8B5CF6"/><rect x="16" y="2" width="3" height="16" fill="#A78BFA"/></svg>
+  ),
+  ai: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M4 4h16v16H4z" fill="#FF6B6B"/></svg>
+  ),
+  mcp: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><circle cx="12" cy="12" r="10" fill="#06B6D4"/></svg>
+  ),
+  network: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M4 12h16M12 4v16" stroke="currentColor" strokeWidth="2"/></svg>
+  ),
+  cicd: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M4 12h8l2-4 2 8 2-4 2 4" stroke="currentColor" strokeWidth="2" fill="none"/></svg>
+  ),
+  // soft skill icons
+  leadership: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><circle cx="12" cy="8" r="3" fill="#F59E0B"/><path d="M4 20c2-4 6-6 8-6s6 2 8 6" stroke="#F59E0B" strokeWidth="1.5" fill="none"/></svg>
+  ),
+  coordination: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M4 6h16M4 12h16M4 18h16" stroke="#10B981" strokeWidth="1.5"/></svg>
+  ),
+  communication: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><rect x="3" y="5" width="18" height="12" rx="2" fill="#3B82F6"/></svg>
+  ),
+  problem: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M12 2v8" stroke="#EF4444" strokeWidth="1.8"/><circle cx="12" cy="17" r="1.5" fill="#EF4444"/></svg>
+  ),
+  time: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><circle cx="12" cy="12" r="8" stroke="#6366F1" strokeWidth="1.5" fill="none"/><path d="M12 8v5l3 1" stroke="#6366F1" strokeWidth="1.5"/></svg>
+  ),
+  mentoring: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M8 7a3 3 0 106 0 3 3 0 00-6 0zM4 20v-1a4 4 0 014-4h8a4 4 0 014 4v1" stroke="#F97316" strokeWidth="1.5" fill="none"/></svg>
+  ),
+  collaboration: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M4 12h6M20 12h-6M12 4v6M12 20v-6" stroke="#06B6D4" strokeWidth="1.5"/></svg>
+  ),
+  adaptability: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}><path d="M12 2v4M12 18v4M4 12h4M16 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3" stroke="#8B5CF6" strokeWidth="1.5"/></svg>
   ),
 };

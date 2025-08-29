@@ -13,18 +13,10 @@ const ExperiencePage = () => {
             <PageHeader className="mb-10">
                 <PageHeaderHeading>Experience</PageHeaderHeading>
                 <PageHeaderHeading className="mt-2 text-muted-foreground">
-                    You need it to get the job, but the job’s what gives it!
+                    you need experience to get a job, but you need a job to get experience.
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    Throughout my journey as a developer, I have had the
-                    opportunity to work with cutting-edge technologies while
-                    also mastering the fine art of debugging at 2 AM. From
-                    building dynamic web applications to deciphering cryptic
-                    error messages, my experience has been a mix of structured
-                    learning and spontaneous problem-solving. Each project and
-                    internship has sharpened my ability to write clean code,
-                    collaborate effectively, and most importantly—fix bugs
-                    before they fix me.
+                    Throughout my journey as a developer, I’ve worked with cutting-edge technologies while mastering the fine art of debugging at 2 AM. From building dynamic web applications to untangling cryptic error logs, my experience has blended structured learning with spontaneous problem-solving. Every project, hackathon, and internship has honed my ability to write clean, scalable code, collaborate effectively, and—most importantly—fix bugs before they fix me.
                 </PageHeaderDescription>
             </PageHeader>
 
@@ -42,19 +34,16 @@ const ExperiencePage = () => {
                         </svg>
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                        Mobile and Web Developer · Mantra IT
+                        Web Developer Intern · Gharpan NGO
                         <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ms-3">
                             Latest
                         </span>
                     </h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                        Mar. 2025 - Present
+                        July. 2025 - Aug. 2025
                     </time>
                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                        Currently building responsive web and mobile
-                        applications, including an air ticketing platform and
-                        E-Grow farming app, using React, Next.js, and React
-                        Native at Mantra IT.
+                        Developing a scalable orphanage management system for Gharpan NGO, featuring secure data tracking, workflow automation, and Excel/PDF exports — streamlining operations and reducing manual workload by 50%.
                     </p>
                 </li>
 
@@ -71,19 +60,16 @@ const ExperiencePage = () => {
                         </svg>
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                        Next.js Developer Internship · Treeleaf Technologies
+                        Upcoming Summer Intern · BNY
                         {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ms-3">
               Latest
             </span> */}
                     </h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                        Feb. 2025 - Mar. 2025
+                        July. 2026 - Aug. 2026
                     </time>
                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                        Interned as a Next.js Developer at Treeleaf
-                        Technologies, developing and maintaining front-end
-                        components for web applications using React and Next.js
-                        while mastering modern web development practices.
+                        Selected in top 1% candidates through on-campus recruitment, excelling in DSA, OOP and SYSTEM DESIGN.
                     </p>
                 </li>
 
@@ -100,15 +86,15 @@ const ExperiencePage = () => {
                         </svg>
                     </span>
                     <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                        CloudWorker (Part-time) · CloudWorker
+                        Secretary · GameDevUtopia
                     </h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                        Dec. 2023 - Present
+                        May. 2025 - May. 2026
                     </time>
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                        Working as a part-time CloudWorker at CloudFactory,
-                        where I annotate diverse datasets to support AI and
-                        machine learning projects while honing my attention to
+                        Working as a part-time Secretary at GameDevUtopia,
+                        where I manage communications, organize events, and
+                        support the development team while honing my attention to
                         detail and time management skills.
                     </p>
                 </li>

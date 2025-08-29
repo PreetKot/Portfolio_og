@@ -18,7 +18,7 @@ const ProjectsPage = () => {
       <PageHeader className="mb-10">
         <PageHeaderHeading>Projects</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          A lot of ideas, but some are still under construction!
+          Currently exploring multiple ideas, with several still under development.
         </PageHeaderHeading>
       </PageHeader>
 

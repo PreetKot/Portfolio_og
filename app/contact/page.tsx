@@ -32,9 +32,9 @@ const ContactPage = async () => {
 
       <Pager
         prevHref="/education"
-        nextHref="/stats"
+        nextHref="/projects"
         prevTitle="Education"
-        nextTitle="Stats"
+        nextTitle="Projects"
       />
     </>
   );

@@ -31,23 +31,10 @@ export function MainNav() {
         >
           Home
         </Link>
-
-        <Link
-          target="_blank"
-          href="https://blog.abhishekg.com.np"
-          className={cn(
-            "transition-colors hover:text-foreground/80 flex gap-1",
-            pathname?.startsWith("/blog")
-              ? "text-foreground"
-              : "text-foreground/80"
-          )}
-        >
-          Blog <ExternalLink className="size-3" />
-        </Link>
-
         <Link
           href={siteConfig.links.resume}
           target="_blank"
+          rel="noopener noreferrer"
           className="flex gap-1"
         >
           Resume <ExternalLink className="size-3" />

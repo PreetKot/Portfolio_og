@@ -17,19 +17,14 @@ const EducationPage = () => {
       <PageHeader className="mb-10">
         <PageHeaderHeading>Education</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          I learned a lot, but the real learning happens in the code editor!
+          I’ve gained valuable knowledge, but the real learning happens when I’m deep in the code editor, turning concepts into working solutions.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          Education has always been the cornerstone of my journey into the tech
-          world. Pursuing a Bachelor's in Information Technology (BIT) at Patan
-          Multiple Campus has provided me with a solid foundation in computer
-          science and software engineering principles.
+          My academic journey has been a launchpad into technology, where each step has strengthened my curiosity and skills. At Pune Institute of Computer Technology, I am pursuing Electronics & Telecommunication Engineering, building a strong foundation in core engineering concepts while bridging them with computer science and modern software practices.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          My academic journey has been complemented by hands-on projects and
-          coursework, enabling me to build practical skills and a deep
-          understanding of modern technological solutions.
+          My academic journey has been enriched by hands-on projects and rigorous coursework, allowing me to develop practical skills and gain a deeper understanding of modern technological solutions.
         </PageHeaderDescription>
       </PageHeader>
 
@@ -47,44 +42,26 @@ const EducationPage = () => {
             </svg>
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Bachelors in Information Technology · Patan Multiple Campus ·
-            Tribhuvan University
+            Bachelors in Electronics and Telecommunication · Pune Institute of Computer Technology 
+            
             <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ms-3">
               Latest
             </span>
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Mar. 2021 - May 2025 (Expected)
+            Aug. 2023 - June 2027
           </time>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            I am pursuing a Bachelor's in IT at Patan Multiple Campus,
-            specializing in programming, web development, and software
-            engineering.
+            I am pursuing a Bachelor’s in Electronics & Telecommunication Engineering at Pune Institute of Computer Technology (PICT), with a strong focus on programming, web development, and software engineering.
           </p>
+         <p className="mb-4 text-base font-medium text-gray-700 dark:text-gray-300">
+  CGPA: 9.3 / 10
+</p>
+           <p className="mb-4 text-base font-medium text-gray-700 dark:text-gray-300">
+  Extra-Curricular: Secretary | GameDevUtopia , Student Council | Entrepreneurship Development Cell
+</p>
 
-          <HoverCard>
-            <HoverCardTrigger className="cursor-pointer ">
-              {/* <Link href={siteConfig.bitinfonepal}>
-              Visit bitinfonepal.com
-              </Link> */}
-              @bitinfonepal.com
-            </HoverCardTrigger>
-            <HoverCardContent>
-              <p>
-                I co-created{" "}
-                <Link
-                  href={siteConfig.bitinfonepal}
-                  className="underline cursor-pointer underline-offset-4"
-                >
-                  bitinfonepal.com
-                </Link>
-                , an exam-friendly platform for BIT students. This website helps
-                students prepare for their exams by providing resources like
-                notes, syllabuses, past questions, and BIT filtered notices,
-                offering a comprehensive study companion.
-              </p>
-            </HoverCardContent>
-          </HoverCard>
+          
         </li>
         <li className="mb-10 ms-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -99,14 +76,17 @@ const EducationPage = () => {
             </svg>
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Physical Science · Deep Boarding High School · NEB
+            4.0 Technologies · NxtWave Disruptive Technologies
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ms-3">
+              Latest
+          </span>
           </h3>
+          
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            July 2018 - Oct. 2020
+            Oct. 2023 - June 2027
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            I completed my higher secondary education in Physical Science from
-            Deep Boarding High School, Butwal.
+            I am currently enrolled in the 4.0 Technologies program at NxtWave Disruptive Technologies, where I am enhancing my skills in emerging technologies and their applications.
           </p>
         </li>
         <li className="ms-6">
@@ -122,16 +102,46 @@ const EducationPage = () => {
             </svg>
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Secondary Education · Motherland English School · SEE
+            Senior Secondary Education · Sanjay Ghodawat International School · CBSE
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Apr. 2005 - Mar. 2018
+            June 2021 - June 2023
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            I completed my foundational education up to SEE at Motherland
-            English School
+            I completed my senior secondary education in Science from Sanjay Ghodawat International School, where I excelled in my studies and developed a strong foundation in core subjects like PCM and prepared for competitive exams like JEE, MHTCET, COMEDK etc.
           </p>
+          <p className="mb-4 text-base font-medium text-gray-700 dark:text-gray-300">
+  Score : 80%
+</p>
         </li>
+         <li className="ms-6 mt-8">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg
+              className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+            </svg>
+          </span>
+          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            Secondary Education · Shantiniketan School · CBSE
+          </h3>
+          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            June 2016 - June 2021
+          </time>
+          <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+            I completed my secondary education at Shantiniketan School, where I built a solid academic foundation and consistently performed well in my studies. During this time, I actively focused on core subjects and cultivated the discipline and curiosity that shaped my interest in pursuing higher education in Science and Technology.
+          </p>
+          <p className="mb-4 text-base font-medium text-gray-700 dark:text-gray-300">
+  Extra-Curricular: Cricket | Fast Bowler , Music | Guitar & Piano
+        </p>
+        <p className="mb-4 text-base font-medium text-gray-700 dark:text-gray-300">
+  Score : 94.6%
+</p>
+      </li>
       </ol>
 
       <CodeSnippet code={code.educationJourney} title="educationJourney.ts" />
